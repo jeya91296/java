@@ -1,0 +1,22 @@
+public class Test {
+
+	public static void main(String[] args) {
+		//comments 
+		System.out.println("Hello World");
+		int x; //declaring a variable
+		x=1; // assigning a variable
+        System.out.println(x+1);
+		System.out.println(x);
+		x= 34;
+		System.out.println(x);
+		String wo;
+		wo="this is a sentence";
+				System.out.println(wo);
+				System.out.println(wo + "+ sign is used for appending the string");
+				int y=39;//declaring and assigning a variable in same line
+				String wr="sentence";
+				System.out.println(wr);
+				System.out.println(y);
+	}
+
+}
