@@ -52,7 +52,7 @@ starting index position = 0
 slots that have not been assigned =0 by default
 last index position = length -1
 
-
+![image](https://github.com/jeya91296/java/assets/110182064/f056c9d6-abc0-4e62-a2bb-7fd93121a2ab)
 
 Eclipse:
 ----------
