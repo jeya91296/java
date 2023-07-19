@@ -1,0 +1,33 @@
+package java8project;
+
+public class Arrays {
+
+	public static void main(String[] args) {
+		
+		int [] cat= new int [100]; //initializing an array having 100 slots i.e (100 elements) from 0 to 99
+		cat[0]=100;
+		cat[99]=12;
+		
+		System.out.println(cat[0]);
+		System.out.println(cat[1]);
+		System.out.println(cat[99]);
+		
+		String []man=new String[] {"Hello","Welcome"}; //initialize and declare the values directly
+		System.out.println(man[0]);
+		System.out.println(man[1]);
+		
+		//the size is fixed we cannot change once it execute but we can create or reassign a new array for variable
+		man = new String[10];
+		System.out.println(man[0]); //it print null because we did assign any value 
+		
+		double []dog= new double[100];
+		dog[11]=999; 
+		dog[12]=908.8; // same kind of data type can be used to declare and initialize
+		
+		System.out.println(dog[11]); //double basically prints its whole number as decimal so it accepts int
+		System.out.println(dog[12]);
+		System.out.println(dog[100]);
+				
+	}
+
+}
