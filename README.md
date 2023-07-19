@@ -34,6 +34,25 @@ char kl='9';  //it stores single character only
 the int, byte, short, double, boolean, and char are primitive data types. These are the building blocks of Java
 but what makes this language special and a lot of other object-oriented languages is that you can create your own data types.
 
+Array:
+------------
+-Array is a way to store a collection of elements.
+-Normal variable  can be assigned to a single value but An Array Variable  can be assigned to multiple values.
+-An Array Starts with the zeroth index position.
+-all slots that have not been assigned any data yet are by default initialized with zero.
+-the particular position does not even exist in the array then it shows an error as ArrayIndexOutOfBoundsException.
+-After Assigning an array value as one data type that same data type can be used to declare and assign a value.
+
+eg: int [] cat= new int [100];
+cat[8]="hello";  (Wrong)
+cat[99]=12; (correct)
+
+
+starting index position = 0
+slots that have not been assigned =0 by default
+last index position = length -1
+
+
 
 Eclipse:
 ----------
