@@ -5,8 +5,8 @@
 Test--class name
 TestResults--class name (compound words) The second word must also start with a caps letter. this is known as camel casing
 
-Variables:
------------
+Variables and Datatype:
+----------------------------
 it must start with letters  eg: String word345f;
 
 the illegal variable is 3word345f (wrong)
