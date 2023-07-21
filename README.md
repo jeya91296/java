@@ -54,6 +54,116 @@ last index position = length -1
 
 ![image](https://github.com/jeya91296/java/assets/110182064/f056c9d6-abc0-4e62-a2bb-7fd93121a2ab)
 
+CONTROL FLOW:
+------------------------
+if else statement
+---------------------
+if statement will work when condition is true otherwise else part will get execute.\
+
+syntax:
+if(condition is true)
+{
+statements;
+}
+else
+{
+statements ;
+}
+
+
+else if 
+-------
+if the condition is true it break from ie it jumbs out and not to check remaining  conditions and print the statement otherwise it print else part
+ie: if condition is false it checks elseif
+then elseif condition is false it checks next condition otherwise it prints else part.
+
+syntax:
+if(condition)
+{ statements;
+}
+else if (condition)  
+{statements;
+}
+:
+:
+else
+{statements;
+}
+
+
+nested if else
+----------------
+in if else there is inside another if else statement
+syntax
+-----------
+if(condition)
+{ 
+   if (condition)
+  {
+    statements;
+   } 
+   else
+  {
+   statements ;
+  }
+}
+else
+{
+statements;
+}
+
+nested if ... else if
+---------------------
+in if there is inside another if else if statement
+syntax
+-----------
+if(condition)
+{ 
+   if (condition)
+  {
+    statements;
+   }
+   else if(condition)
+   {
+     statements;
+    }
+     else if(condition)
+    {
+      statements;
+      }
+     :
+     :
+   else
+  {
+   statements ;
+  }
+}
+else
+{
+statements;
+}
+
+Switch
+----------
+The Switch statement also allows us to control flow of the Application.good idea to use switch is when there are many decisions.we can also use else if for many decisions but we have to use many else ifs.its probably a good idea to use switch beacuse it more reader friendly but it exactly works the same way as the else if.
+
+syntax:
+switch(variable)
+{
+case variablevalue://case 1
+ Statement;
+  break;
+case 2:
+    Statement;
+  break;
+:
+:
+default:
+ Statement;
+  break;
+ }
+
+
 Eclipse:
 ----------
 To change Font in Eclipse:  right click-->preference-->text editor-->colors and fonts-->java-->java editor text font.
