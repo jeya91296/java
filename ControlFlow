@@ -1,0 +1,103 @@
+package java8project;
+
+public class ControlFlow {
+
+	public static void main(String[] args) {
+		boolean hungry=true;
+		if(hungry)
+		{
+	      System.out.println("Im Starving");
+	      }
+		else
+		{
+			 System.out.println("Im not hungry");
+		}
+		//another way
+		if(2==2)
+		{
+		      System.out.println("Im Starving");
+		      }
+			else
+			{
+				 System.out.println("Im not hungry");
+			}
+		//to print false statement
+		if(2<2)
+		{
+		      System.out.println("Im Starving");
+	     }
+			else
+			{
+				 System.out.println("Im not hungry");
+			}
+		//using not operator it print else statement because of using "not operator"   
+		if(!hungry) //hungry value is true using not operator true became to false
+		{
+			 System.out.println("Im Starving");
+	     }
+			else
+			{
+				 System.out.println("Im not hungry");
+			}
+		
+		//expressions
+		int hunrating=5;
+		if(!(hunrating < 6)) // 5< 6 condition is false but using not operator it negates the value .so the condition is false ie [!(false)]
+		{
+			 System.out.println("Im not hungry");
+	     }
+			else
+			{
+				 System.out.println("Im Starving");
+			}
+		
+		//else if statement
+		int a=75;
+		int b=60;
+		String opinion;
+		if(b<a-30) //60 < (75-30)===>60 < 45===> false 
+			//it is a good practice to wrap with parenthesis if(b < (a-30))
+		{
+			opinion="It is darn cold";
+					}
+		else if(b<a-20) //60 < (75-20) ===> 60 < 55===> false
+		{
+			opinion="It is kinda cold out";
+		}
+		else if(b>a+10) //60 > 85 ===> false
+		{
+			opinion="it is hot out";
+		}
+		else //all above else if condition is false so it prints else parts
+		{
+		opinion="it is a beautiful day";
+		}
+		System.out.println(opinion);
+ //Switch statement
+		int mon=6;
+		String month;
+		switch(mon) //it checks the value then it go to that particular case value and  it execute the statement and then it jumps out from switch because of break. without break it print remaining other case statements.  
+		{
+		case 1:
+			month="January";
+			break;
+		case 2:
+			month="February";
+			break;
+		case 3:
+			month="March";
+			break;
+		case 4:
+			month="April";
+			break;
+		case 5:
+			month="May";
+			break;
+		default://case value not satisfied  then default will execute the statement (like else part)
+			month="unknown month";
+			break;
+				}
+		System.out.println(month);
+	}
+
+}
