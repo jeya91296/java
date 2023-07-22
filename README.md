@@ -163,6 +163,32 @@ default:
   break;
  }
 
+METHODS:
+------------------
+A method in Java is a block of code that, when called, performs specific actions mentioned in it. For instance, if you have written instructions to draw a circle in the method, it will do that task. You can insert values or parameters into methods, and they will only be executed when called.
+
+In general, a method is a way to perform some task. Similarly, the method in Java is a collection of instructions that performs a specific task. In general, a method is a way to perform some task. Similarly, the method in Java is a collection of instructions that performs a specific task.
+
+System.out.println("gdfj"); 
+The above method is called the print line. This method's responsibility is to print the data to the screen . the data which  is passings in the method argument will get printed.
+the above method is a predefined method in the Java language.
+
+Basically, System is a class and this method belongs to this variable "out" and this variable is actually in the class System. The variable of "out" data type is PrintStream.
+ 
+eclipse:
+------------
+press ctrl and click on the System in the method. It takes you to the class.
+press ctrl and click on the PrintStream ,thats actually another class.
+ctrl  + forward slash / to comment the line short cut
+
+Syntax:
+-------
+public static void methodname()
+{
+body of the method;
+}
+
+note : void method cannot return a value
 
 Eclipse:
 ----------
