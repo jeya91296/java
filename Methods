@@ -1,0 +1,28 @@
+package java8project;
+
+public class Methods {
+
+	public static void main(String[] args) {
+		System.out.println("welcome");
+		printjunk();
+		//printjunk("hello");//it gives you an error because we haven't defined the argument in printjunk method
+		junk("Hi welcome to java learning");
+		//junk(365);//it  gives you error because the argument accepts only string. the reason is the argument datatype is String in junk method.so we cannot pass any other datatype except String
+		junk("365"); //String is passed
+		junk(365);//datatype int method is created so now its work for that method int.
+	}
+					//method
+					public static void printjunk()
+					{
+					System.out.println("Something");
+					}
+					//passing argument in method
+					public static void junk(String ar)
+					{
+						System.out.println("Something " + ar);
+					}
+					public static void junk(int ar) //same method name of above but different argument data type
+					{
+						System.out.println("Integer passed in " + ar);
+					}
+}
