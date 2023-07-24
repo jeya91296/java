@@ -190,6 +190,109 @@ body of the method;
 
 note : void method cannot return a value
 
+METHOD VISIBILITY AND STATIC VS INSTANCE:
+--------------------------------------------------------------------
+Public static void main(String[] args)--this is the entry point for every java application and this method is called standard signature method.
+
+
+public static void add() //method signature
+{
+instructions to do the tasks;
+}
+
+void-does not return anything 
+public-Access Modifier.
+	Access Modifier is to manage visibility of methods and variables.
+private methods we cannot invoke to other class.It suits same for class also.
+
+
+there are two are different package java8project  and modifier
+if access modifier public or private is removed in MyUtils class ie. class MyUtils like this   then we cannot be invoke the method of MyUtils class from java8project  package to other packages but we can invoke method in same package java8project.
+if we use access modifier public we can invoke method from one package to other.
+
+package java8project;
+
+public class MyUtils {
+		public static void junk(String ar)
+	{
+		System.out.println("Something " + ar);
+	}
+
+
+
+
+package modifier;
+
+import java8project.MyUtils;
+
+public class Example {
+	public static void dosomething()
+	{
+		MyUtils.junk("101"); //invoking method of MyUtils ===>classname.methodname(argument);
+	}
+
+}
+
+Static:
+--------
+there are Two classes in same package Myutils and Meth
+
+package java8project;
+public class MyUtils {
+public static int add10(int c)
+	{
+		int result=c+10;
+		return result;
+	}
+}
+
+package java8project;
+public class Meth
+{
+public static void main (String[] args)
+{
+Myutils.add10(20);
+}
+
+if we remove static in  public static int add10(int c) 
+
+package java8project;
+public class MyUtils {
+public  int add10(int c)
+	{
+		int result=c+10;
+		return result;
+	}
+}
+then we cannot able to invoke method directly in  package java8project  and public class Meth.
+public  int add10(int c) it belongs to instance of the class.
+
+we are assigning an variable instance of this class not the class directly .This has the functionality to be able to invoke methods that are non static in the MyUtils class.
+
+package java8project;
+public class MyUtils {
+public int add10(int c)
+	{
+		int result=c+10;
+		return result;
+	}
+}
+
+package java8project;
+public class Meth
+{
+public static void main (String[] args)
+{
+MyUtils myvar; 
+myvar= new MyUtils(); //we are Assigning an variable instance of this class,instance refered to an object variable not the class directly
+myvar.add10(20);
+}
+
+
+Eclipse:
+----------
+ctrl+shift+o thats going to clean up those unused imports.
+
 Eclipse:
 ----------
 To change Font in Eclipse:  right click-->preference-->text editor-->colors and fonts-->java-->java editor text font.
