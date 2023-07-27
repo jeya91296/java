@@ -1,4 +1,18 @@
 # java
+JAVA:
+Java is a platform independent. That means you can run the application on any machine but that machine has JVM to run.Java is object-oriented. Object-oriented means everything should be an object. Java is WORA-write once run anywhere. Java Is case-sensitive.
+
+HOW JAVA WORKS:
+1. Programmer writes the code with the extension of .java
+2. compile the code. compiler converts the Java code into byte code. To compile a code we need to install JDK.
+JDK-Java Development kit
+3. when you install JDK. we get all updated JVM and JRE.
+4. JRE -Java Runtime Environment
+When you want to run something, use JRE to run it.JRE will provide some extra libraries to run the code. JVM with libraries is a part of JRE.
+5. JVM-Java Virtual Machine. Byte code will run on JVM JVM itself is platform dependent.JVM is built for particular os.
+   ![image](https://github.com/jeya91296/java/assets/110182064/151298b1-6cb0-4869-bc1f-dd0772c818ac)
+
+
 -Java is case-sensitive, the class name starts with caps, and "System.out.println"  also starts with caps.
 -java interpreter needs this main method to run the program.
 
