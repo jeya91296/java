@@ -1,0 +1,37 @@
+IDE- Integrated Development Environment
+you can write,compile,debug and run the code and you can do everything in an IDE.
+
+VS code- lightweight editor
+
+Apart from IDE we need compiler --JDK Java Development kit
+
+java 17 is LTS long term support 
+
+every 6 month features get updated in java but the basic language will remain the same.
+
+
+java 9-jshell 
+its like python i line code
+type jshell in command prmpt
+
+JShell in Java 9.
+
+The Java Shell tool (JShell) is an interactive tool for learning the Java programming language and prototyping Java code. JShell is a Read-Evaluate-Print Loop (REPL), which evaluates declarations, statements, and expressions as they are entered and immediately shows the results.
+
+PS C:\Users\user\Desktop> jshell
+|  Welcome to JShell -- Version 15
+|  For an introduction type: /help intro
+
+jshell> 5+9
+$1 ==> 14
+
+jshell> 5-1
+$2 ==> 4
+
+jshell> System.out.println(6);
+6
+
+jshell> System.out.println("Hello");
+Hello
+
+jshell> 
