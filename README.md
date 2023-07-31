@@ -21,10 +21,11 @@ TestResults--class name (compound words) The second word must also start with a 
 
 Variables and Datatype:
 ----------------------------
-it must start with letters  eg: String word345f;
+-The variable is used to store data or values. Datatype is used to indicate what type of data that variable stores.
+variable name  must start with letters  eg: String word345f;
 
-the illegal variable is 3word345f (wrong)
-illegal variable is *&Fword345f (wrong)
+the illegal variable name is 3word345f (wrong)
+illegal variable name is *&Fword345f (wrong)
 
 int - 2 to the 31st power this  int data type support otherwise it is out of range.
 long- long big value and use at last "L" or "l" then only java consider as long otherwise it considers as int
