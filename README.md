@@ -48,6 +48,46 @@ char kl='9';  //it stores single character only
 the int, byte, short, double, boolean, and char are primitive data types. These are the building blocks of Java
 but what makes this language special and a lot of other object-oriented languages is that you can create your own data types.
 
+integer:
+--------
+int - size is 4 bytes
+long- size is 8 bytes
+short-size is 2 bytes
+byte- size is 1 byte- ie====> -2 to the power of 7 to (2 to the power of 7)-1 so the range is -128 to 127 allowed in byte
+
+float
+------
+float- size is 4 bytes
+double- size is 8 bytes
+
+In Java, which one is the default float or double?
+the default one is double because float will have a limited precision 126.5678..... but in double it will have more values.
+
+float num=7.9f; //why f because by default java consider the decimal value as double.so we use f to mention that as float.
+
+character
+----------
+char- size is 2 bytes
+eg: char c='k';
+use single quotes for a character. the character will accept only one character.
+java supports Unicode.
+
+Boolean
+---------
+it accepts only true or false. Not to use  0 or 1 to consider true or false.
+eg: boolean a=true;
+
+int a=9;
+byte n=127;
+short z=550;
+long d=5754l;
+
+float s=5.8f;
+double f=5.8;
+
+char mn='k';
+boolean b=true;
+
 Array:
 ------------
 -Array is a way to store a collection of elements.
