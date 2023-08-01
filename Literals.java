@@ -21,7 +21,7 @@ public class Literals {
         double num4=12e10; //12epsilon10
         System.out.println(num4);
 
-        //character can be also treated as integer.we can perform operations.
+        //character can be also treated as an integer. we can perform operations.
         char num5='b';
         num5++; //incrementing character
         System.out.println(num5);
