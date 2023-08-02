@@ -24,3 +24,9 @@ public class Conversioncasting{
 
     }
 }
+
+Output:
+127
+1
+5
+300
