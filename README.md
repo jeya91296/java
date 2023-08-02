@@ -118,6 +118,35 @@ char num5='b';
         num5++; //incrementing character
         System.out.println(num5);
 
+Type conversion and Casting:
+----------------------------------
+converting one data type to another is called casting. It is a conversion but explicitly doing .so whenever you do explict conversion then it is called casting
+int a=12;
+byte b=127;
+b= (byte)a; //converting integer value into byte format
+
+float v=12.1f;
+int y=(int)v;
+this  may lose some point value. while converting to integer 12.1 becomes 12 so it lost some point value
+
+//casting bigger type to smaller one performs  modulus operation.
+casting will perform a modulus operation which is actually finding the remainder
+int s=257;
+range of int is 256 
+257%256=1
+
+
+implict conversion.
+byte value into an integer variable so it becomes an integer. This is called conversion
+a=b;
+
+
+//type promotion
+        byte r=10;
+        byte p=30;
+        int res=r*p; //10*30=300 byte range is high so storing the result in integer. This concept is called type promotion
+
+
 
 Array:
 ------------
